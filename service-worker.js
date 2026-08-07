@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kns-directory-v1';
+const CACHE_NAME = 'kns-directory-v2';
 const APP_SHELL = ['./', './index.html', './style.css', './app.js', './kns_data_export.js', './manifest.json', './icons/icon.svg'];
 
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting())));
