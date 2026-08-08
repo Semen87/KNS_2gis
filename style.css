@@ -10,8 +10,8 @@ h1 { margin: 5px 0 0; font-size: clamp(1.45rem, 5vw, 2rem); line-height: 1.12; }
 .station-count { margin: 18px 0 0; color: #d4f5f1; }
 .icon-button { width: 42px; height: 42px; border: 1px solid #ffffff55; border-radius: 13px; color: inherit; background: #ffffff1a; cursor: pointer; font-size: 1.4rem; }
 .controls { display: grid; gap: 10px; grid-template-columns: 1fr; margin: 18px 0; }
-.search-box { display: flex; align-items: center; gap: 9px; min-height: 54px; padding: 0 14px; border: 1px solid #cfe1e7; border-radius: 16px; background: #fff; box-shadow: 0 3px 14px #16445a0d; color: #47717f; }
-.search-box input { width: 100%; border: 0; outline: 0; color: #12212c; background: transparent; }
+.search-box { display: flex; align-items: center; gap: 12px; min-height: 68px; padding: 0 18px; border: 1px solid #cfe1e7; border-radius: 18px; background: #fff; box-shadow: 0 3px 14px #16445a0d; color: #47717f; }
+.search-box input { width: 100%; border: 0; outline: 0; color: #12212c; background: transparent; font-size: 1.1rem; }
 .search-box button { border: 0; color: #47717f; background: transparent; cursor: pointer; font-size: 1.5rem; line-height: 1; }
 .district-filter { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 14px; border: 1px solid #cfe1e7; border-radius: 14px; background: #fff; color: #47717f; }
 .district-filter span { font-size: .85rem; font-weight: 700; }

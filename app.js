@@ -37,7 +37,7 @@ function normalizeRecord(record, index) {
   };
 }
 
-function searchText(item) { return Object.values({ ...item.original, ...item.fields }).flatMap(value => typeof value === 'object' ? Object.values(value) : value).join(' ').toLocaleLowerCase('ru'); }
+function searchText(item) { return [item.number, item.address].join(' ').toLocaleLowerCase('ru'); }
 function escapeText(value) { return String(value ?? '').trim(); }
 function fieldRow(label, value, icon = '•') { const row = document.createElement('div'); row.className = 'field-row'; row.innerHTML = `<dt aria-hidden="true">${icon}</dt><dd><strong class="sr-only">${label}: </strong>${escapeText(value)}</dd>`; return row; }
 
@@ -47,7 +47,7 @@ function render() {
   const filtered = records.filter(item => (!district || item.district === district) && (!query || searchText(item).includes(query)));
   list.replaceChildren();
   clearSearch.hidden = !searchInput.value;
-  stationCount.textContent = records.length ? `Всего станций: ${records.length}` : 'Справочник ожидает данные';
+  stationCount.textContent = records.length ? `Всего: ${records.length}` : 'Справочник ожидает данные';
   statusMessage.textContent = records.length ? `Показано: ${filtered.length}` : 'Добавьте актуальные данные в kns_data_export.js.';
   if (!filtered.length) { const empty = document.createElement('div'); empty.className = 'empty-state'; empty.textContent = records.length ? 'По этому запросу станции не найдены.' : 'В файле данных пока нет станций.'; list.append(empty); return; }
   filtered.forEach(item => {

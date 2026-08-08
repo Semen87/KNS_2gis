@@ -448,9 +448,9 @@ export const knsData = [
     "number": "КНС 68",
     "address": "Пр.Туран 34/1",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.122747, 71.407028",
     "pumps": "4 × Flugt 3102 (2017)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.407028,51.122747",
     "notes": "",
     "fields": {
       "Количество насосов": "4"
@@ -460,9 +460,9 @@ export const knsData = [
     "number": "КНС 69",
     "address": "Пр.Кабанбай батыра 29/1",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.125038, 71.409216",
     "pumps": "2 × Flugt 3153 (2020)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.409216,51.125038",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -472,9 +472,9 @@ export const knsData = [
     "number": "КНС 72",
     "address": "Спасательная станция",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.157768, 71.415783",
     "pumps": "2 × Flugt 3102 (2018)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.415783,51.157768",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -484,9 +484,9 @@ export const knsData = [
     "number": "КНС xs",
     "address": "Ул.23 д.3",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.117247, 71.407264",
     "pumps": "2 × Flugt 3127 (2018)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.407264,51.117247",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -496,9 +496,9 @@ export const knsData = [
     "number": "КНС 75",
     "address": "Ул.23 д.3",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.117461, 71.405759",
     "pumps": "2 × Flugt 3085 (2017)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.405759,51.117461",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -506,11 +506,11 @@ export const knsData = [
   },
   {
     "number": "КНС 88",
-    "address": "карталинская 18/1",
+    "address": "Коргалжин 22",
     "district": "Нура",
-    "coordinates": "51.197825, 71.386441",
+    "coordinates": "51.150065, 71.362197",
     "pumps": "2 × Flugt 3085 (2017)",
-    "twoGisUrl": "https://2gis.kz/astana/search/51.197825,71.386441",
+    "twoGisUrl": "https://2gis.kz/astana/geo/70030076552180178/71.362197%2C51.150065",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -554,9 +554,9 @@ export const knsData = [
     "number": "КНС 109",
     "address": "Пр.Туран 4/3",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.151475, 71.418116",
     "pumps": "2 × Pedrollo РМ 30/70 (2013)\n2 × Flugt 3085 (2024)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.418116,51.151475",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -698,9 +698,9 @@ export const knsData = [
     "number": "КНС 164",
     "address": "Ул.Айтматова МЖК Тау",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.145887, 71.369008",
     "pumps": "1 × Grundfos ()",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.369008,51.145887",
     "notes": "",
     "fields": {
       "Количество насосов": "1"
@@ -710,9 +710,9 @@ export const knsData = [
     "number": "КНС 165",
     "address": "Ул.Е-22",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.116730, 71.396562",
     "pumps": "3 × Flugt 3153 (2024)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.396562,51.116730",
     "notes": "",
     "fields": {
       "Количество насосов": "3"
@@ -722,9 +722,9 @@ export const knsData = [
     "number": "КНС 178",
     "address": "Ул.Омарова 17",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.136726, 71.368732",
     "pumps": "2 × Flugt 3153 (2011)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.368732,51.136726",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -770,9 +770,9 @@ export const knsData = [
     "number": "КНС 222",
     "address": "Е-429",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.150214, 71.370036",
     "pumps": "4 × Flygt NР 3127 (2024)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.370036,51.150214",
     "notes": "",
     "fields": {
       "Количество насосов": "4"
@@ -782,9 +782,9 @@ export const knsData = [
     "number": "КНС 232",
     "address": "КНС ул Айтматова",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.144404, 71.354198",
     "pumps": "3 × Flygt NР 3127 (2025)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.354198,51.144404",
     "notes": "",
     "fields": {
       "Количество насосов": "3"
@@ -950,9 +950,9 @@ export const knsData = [
     "number": "КНС 165",
     "address": "ул.141 - ул.165 (колодец)",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "не найденно",
     "pumps": "2 × Flygt (2025)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/search/%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -974,9 +974,9 @@ export const knsData = [
     "number": "КНС 166",
     "address": "ул.160 - ул.166 (колодец)",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "не найденно",
     "pumps": "2 × Flygt (2025)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/search/%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -998,9 +998,9 @@ export const knsData = [
     "number": "КНС 166",
     "address": "ул.Жанкожа батыра-ул.166 (колодец)",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "не найденно",
     "pumps": "2 × Flygt (2025)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/search/%D0%BD%D0%B5%20%D0%BD%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1114,9 +1114,9 @@ export const knsData = [
     "number": "КНС 238",
     "address": "ул.Толеби-ул.Баглановой",
     "district": "Нура",
-    "coordinates": "",
+    "coordinates": "51.117790, 71.391264",
     "pumps": "2 × Flygt (2025)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.391264,51.117790",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1426,9 +1426,9 @@ export const knsData = [
     "number": "КНС 84",
     "address": "Конституции 33",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "51.198484, 71.38059",
     "pumps": "2 × Flygt 3085 (2010)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.380590,51.198484",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1474,9 +1474,9 @@ export const knsData = [
     "number": "КНС 94",
     "address": "Ясли-сад Самурык №45",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "51.172906, 71.408878",
     "pumps": "2 × Pedrollo  (2013)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.408878,51.172906",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1486,9 +1486,9 @@ export const knsData = [
     "number": "КНС 96",
     "address": "Пер. Басире 2(д-сад)",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "Ливидирована",
     "pumps": "1 × Pedrollo  (2012)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/search/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0",
     "notes": "",
     "fields": {
       "Количество насосов": "1"
@@ -1582,9 +1582,9 @@ export const knsData = [
     "number": "КНС 161",
     "address": "Пр.Богенбая д 6/6",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "51.174955, 71.390494",
     "pumps": "2 × Flygt 3085 (2016)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.390494,51.174955",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1786,9 +1786,9 @@ export const knsData = [
     "number": "КНС 211",
     "address": "Ул.шангерея Бокеева 50С",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "51.196904, 71.370509",
     "pumps": "2 × Flygt 3085 (2022)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.370509,51.196904",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -1834,9 +1834,9 @@ export const knsData = [
     "number": "КНС 220",
     "address": "Ул.Султан Бейбарса",
     "district": "Сарыарка",
-    "coordinates": "",
+    "coordinates": "51.170423, 71.368875",
     "pumps": "5 × Flygt 3153 (2024)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.368875,51.170423",
     "notes": "",
     "fields": {
       "Количество насосов": "5"
@@ -3200,9 +3200,9 @@ export const knsData = [
     "number": "КНС 166",
     "address": "Ж.м. Пригородный (котеджный городок КНБ)",
     "district": "Есиль",
-    "coordinates": "",
+    "coordinates": "51.039281, 71.431304",
     "pumps": "2 × Flugt3153 (2024)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.431304,51.039281",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -3344,9 +3344,9 @@ export const knsData = [
     "number": "КНС 203",
     "address": "Ул.Тесла",
     "district": "Есиль",
-    "coordinates": "",
+    "coordinates": "51.060235, 71.429246",
     "pumps": "2 × Flugt3085 (2022)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.429246,51.060235",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
@@ -3392,9 +3392,9 @@ export const knsData = [
     "number": "КНС 207",
     "address": "Ул.Будапешт",
     "district": "Есиль",
-    "coordinates": "",
+    "coordinates": "51.056575, 71.426202",
     "pumps": "2 × Hidrostal (2022)",
-    "twoGisUrl": "",
+    "twoGisUrl": "https://2gis.kz/astana/geo/0/71.426202,51.056575",
     "notes": "",
     "fields": {
       "Количество насосов": "2"
