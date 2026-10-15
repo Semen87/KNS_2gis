@@ -22,7 +22,9 @@ function normalizeRecord(record, index) {
   const lower = Object.fromEntries(Object.entries(source).map(([key, value]) => [key.toLowerCase(), value]));
   const get = (...keys) => keys.map(key => source[key] ?? lower[key.toLowerCase()]).find(value => value !== undefined && value !== null && String(value).trim() !== '');
   const coordinates = get('coordinates', 'координаты', 'coordinate') || '';
-  const twoGisUrl = get('twoGisUrl', '2gis', '2gisUrl', 'ссылка 2гис') || (coordinates ? `https://2gis.kz/search/${encodeURIComponent(String(coordinates).replace(/\s+/g, ''))}` : '');
+  const coordinateMatch = String(coordinates).match(/^\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*$/);
+  const fallbackTwoGisUrl = coordinateMatch ? `https://2gis.kz/search/${coordinateMatch[1]},${coordinateMatch[2]}` : '';
+  const twoGisUrl = get('twoGisUrl', '2gis', '2gisUrl', 'ссылка 2гис') || fallbackTwoGisUrl;
   return {
     id: String(get('id', 'number', 'номер', 'кнс', '№ кнс') || `КНС ${index + 1}`),
     number: String(get('number', 'номер', 'кнс', '№ кнс') || `КНС ${index + 1}`),
